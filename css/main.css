@@ -340,6 +340,16 @@ form button:hover
 	font-size: 20px;
 }
 
+.footer p a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+
+.footer p a:hover{
+	font-size: 25px;
+}
+
 .footer ul li
 {
 	list-style: none;
@@ -348,6 +358,8 @@ form button:hover
 	border: 2px solid #777;
     margin-left: 2px;
 }
+
+
 
 .footer ul li:hover
 {
