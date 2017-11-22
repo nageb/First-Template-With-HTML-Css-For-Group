@@ -1,0 +1,362 @@
+*{
+	max-width: 100%;
+	max-height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+
+@charset "UTF-8";
+/*CSS Document*/
+
+button
+{
+    background-color: #4267b2;
+    border: none;
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -o-border-radius: 19px;
+    -ms-border-radius: 19px;
+    border-radius: 19px;
+}
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+/*this content for control all class by the same name*/
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
+/* start Header*/
+.header{
+    width: 100%;
+    background-color: #000;
+    height: 80px;
+}
+
+
+.header .logo{
+    float: left;
+}
+
+.header .logo h3{
+    color: #fff;
+    margin: 0;
+    padding-top: 25.4px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.header .logo h3 span{
+    font-size: 36.5px;
+    background-color: #DDD;
+    color: black;
+    padding: 5.5px;
+}
+
+.header .nav{
+    float: right;
+}
+
+.header .nav ul li
+{
+    float: left;
+    padding: 16.5px;
+    padding-left: 30px;
+}
+
+.header .nav ul li a
+{
+    font-size: 19px;
+    text-decoration: none;
+    color: #DDD;
+}
+
+.header .nav ul li a:hover
+{
+    color: #eee;
+}
+/*End Header*/
+
+/*for clear>>>*/
+.clear{
+    clear: both;
+}
+
+/*Start About*/
+
+.about
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+}
+.about p{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 2.2
+}
+
+.about button
+{
+    background-color: #4267b2;
+    border: none;
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -o-border-radius: 19px;
+    -ms-border-radius: 19px;
+    border-radius: 19px;
+}
+
+.about button:hover
+{
+	background: none;
+	border: 2px solid #4267b2;
+	cursor: pointer;
+	
+}
+
+
+/*End About*/
+
+/*Start blog*/
+.blog
+{
+	width: 100%;
+	height: 1340px;
+	background: #222;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.blog .part
+{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+	margin-bottom: 1%;
+}
+
+.blog .part:first-child , .blog .part:nth-child(4)
+{
+	margin-left: 0
+}
+
+.blog part img 
+{
+	width: 100%;
+}
+
+.blog .part p
+{
+	text-align: center;
+	padding: 27px;
+	margin: 0;
+	background: #fff;
+	line-height: 1.7;
+	padding-top: 40px;
+}
+
+.blog .part p.bord
+{
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-bottom-left-radius: 20px;
+    -o-border-bottom-left-radius: 20px;
+    -ms-border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    -wbekit-border-bottom-right-radius: 20px;
+    -moz-border-bottom-right-radius: 20px;
+    -o-border-bottom-right-radius: 20px;
+    -ms-border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.blog .part button
+{
+    background-color: #4267b2;
+    border: none;
+    width: 180px;
+    height: 60px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -o-border-radius: 12px;
+    -ms-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.blog .writting
+{
+	width: 42%;
+	height: 150px;
+	color: #fff;
+	float: left;
+	margin: 2%;
+	margin-right: 6%;
+}
+
+.blog .writting i
+{
+	width: 50px;
+	height: 100%;
+	position: relative;
+	top: 25px;
+	float: left;
+	padding-right: 20px;
+}
+
+.blog .writting p
+{
+	font-family: Tahoma;
+	font-size: 15px;
+	color: #777;
+}
+
+/* contact */
+
+.contact
+{
+	width: 100%;
+	height:550px;
+	background: #4267b2;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.contact h2
+{
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 33px;
+}
+
+.contact p
+{
+	font-family: Tahoma;
+	word-spacing: 10px;
+	color:#f3f3f3;
+	font-size: 20px;
+}
+
+.Mauris
+{
+	width: 800px;
+	margin: auto;
+}
+
+
+
+input
+{
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	border: 0;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	outline: 0;
+}
+input:hover , input:focus
+{
+	border-left: 5px solid #000;
+}
+
+textarea
+{
+	width: 100%;
+	border-radius: 14px;
+	outline: 0;
+	padding-left: 10px;
+}
+
+form button
+{
+	background: none;
+	border: 0;
+	font-size: 20px;
+	margin-top: 18px;
+	color:#fff;
+	border: 2.2px solid #DDD;
+	padding: 14px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+form button:hover
+{
+	border: 2.2px solid #000;
+}
+
+/* footer */
+
+.footer
+{
+	width: 100%;
+	height: 190px;
+	background: #000;
+	color:#777;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.footer p
+{
+	margin: 23px;
+	font-size: 20px;
+}
+
+.footer ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 12px;
+	border: 2px solid #777;
+    margin-left: 2px;
+}
+
+.footer ul li:hover
+{
+	border: 3px solid #fff;
+}
+.footer ul li:active{
+    border: 4px solid blue;
+    padding: 20px;
+}
+
+
+/*Maecenas viverra consectetur sem eget ullamcorper. Vestibulum semper aliquet turpis , ac dictum ex fermentum ut.phasellus nisi orci, gravida quis mauris non, dignissimporrttior magna. Maecenas sed condimentum nulla. Vivamus tristique orci et gravida consectetur*/
